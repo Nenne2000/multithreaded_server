@@ -9,6 +9,7 @@ import java.util.List;
 public class main {
     public static void main(String[] args) {
 
+        /*iniziamo*/
         List<String> listaEventi = new LinkedList<String>();
 
         String randomString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
