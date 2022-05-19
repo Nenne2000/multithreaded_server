@@ -3,7 +3,7 @@ package Events;
 import java.util.*;
 
 
-public class events_manager {
+public class events_manager implements IEvents{
 
     private final List<event> eventList;
 
