@@ -1,33 +1,33 @@
 package Server;
 
-import Server.eventi;
-import Server.evento;
+import Events.event;
+import Events.events_manager;
 
 import java.util.List;
 
 public class user implements Runnable {
 
-    private eventi gestione_eventi;
-    private List<String> listaTestEventi;
+    private final events_manager manager;
+    private final List<String> eventList;
 
-    public user(eventi gestione_eventi, List<String> listaTestEventi) {
-        this.gestione_eventi = gestione_eventi;
-        this.listaTestEventi = listaTestEventi;
+    public user(events_manager manager, List<String> eventList) {
+        this.manager = manager;
+        this.eventList = eventList;
     }
 
     public void run() {
         for(int i = 0; i < 10; i++){
             try {
                 Thread.sleep(100);
-                evento temp = gestione_eventi.getEventoRandom();
+                event temp = manager.getRandomEvent();
                 if(temp == null) {
-                    System.out.println("U: Non ci sono Server.eventi da prenotare");
+                    System.out.println("U: No events available for booking");
                     return;
                 }
-                gestione_eventi.Prenota(temp.getNome(), 5);
+                manager.bookSeats(temp.getName(), 5);
             }
             catch(InterruptedException t) {
-                System.err.println("Errore thread : " + t.getMessage());
+                System.err.println("Thread error: " + t.getMessage());
             }
         }
     }

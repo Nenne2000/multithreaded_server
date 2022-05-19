@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0202b9fa-a12e-4109-80d5-dc1ba1c9663b" name="Changes" comment="first commit">
+    <list default="true" id="0202b9fa-a12e-4109-80d5-dc1ba1c9663b" name="Changes" comment="Starting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/eventi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Events/events_manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Events/event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/user.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +46,12 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server.main" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.Client" />
       <module name="multithreaded_server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Server.*" />
+          <option name="PATTERN" value="Events.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,7 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -70,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652695042093</updated>
       <workItem from="1652695044714" duration="967000" />
-      <workItem from="1652983359207" duration="410000" />
+      <workItem from="1652983359207" duration="926000" />
+      <workItem from="1652987682022" duration="2647000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1652695116789</created>
@@ -79,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652695116789</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Starting">
+      <created>1652983795716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652983795716</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Starting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting" />
   </component>
 </project>
