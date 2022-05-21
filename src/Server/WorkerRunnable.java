@@ -4,10 +4,10 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.IOException;
 import java.net.Socket;
-public class myWorker implements Runnable{
+public class WorkerRunnable implements Runnable{
     protected Socket clientSocket = null;
     protected String serverText = null;
-    public myWorker(Socket clientSocket, String serverText) {
+    public WorkerRunnable(Socket clientSocket, String serverText) {
         this.clientSocket = clientSocket;
         this.serverText = serverText;
     }

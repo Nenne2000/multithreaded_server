@@ -1,11 +1,8 @@
 package Server;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.concurrent.ThreadPoolExecutor;
 
 public class Server implements Runnable{
     protected int serverPort = 8080;
@@ -45,7 +42,7 @@ public class Server implements Runnable{
                         new WorkerRunnable(clientSocket, "Thread Pooled Server"));
                  */
                 new Thread(
-                        new myWorker(
+                        new WorkerRunnable(
                                 clientSocket, "Multithreaded Server")
                 ).start();
             } catch (Exception e) {
