@@ -15,10 +15,10 @@ public class myWorker implements Runnable{
         try {
             InputStream input = clientSocket.getInputStream();
             OutputStream output = clientSocket.getOutputStream();
-            output.write("ciao").getBytes());
+            output.write(Integer.parseInt("ciao"));
                     output.close();
             input.close();
-            System.out.println("Request processed: " + time);
+            System.out.println("Request processed: " );
         } catch (IOException e) {
 //report exception somewhere.
             e.printStackTrace();

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0202b9fa-a12e-4109-80d5-dc1ba1c9663b" name="Changes" comment="added IEvents interface">
-      <change afterPath="$PROJECT_DIR$/src/Server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/myWorker.java" afterDir="false" />
+    <list default="true" id="0202b9fa-a12e-4109-80d5-dc1ba1c9663b" name="Changes" comment="Add server, non funzionante">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/myWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/myWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <recent name="Events" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GUI">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Server.Client" />
       <module name="multithreaded_server" />
@@ -62,8 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.GUI" />
+      <module name="multithreaded_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GUI" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
@@ -80,7 +94,8 @@
       <workItem from="1652983359207" duration="926000" />
       <workItem from="1652987682022" duration="3872000" />
       <workItem from="1653051531024" duration="1384000" />
-      <workItem from="1653051315990" duration="1958000" />
+      <workItem from="1653051315990" duration="1999000" />
+      <workItem from="1653124812679" duration="2206000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1652695116789</created>
@@ -110,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652991290511</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add server, non funzionante">
+      <created>1653053382709</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653053382709</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +154,7 @@
     <MESSAGE value="Starting" />
     <MESSAGE value="massive refactoring" />
     <MESSAGE value="added IEvents interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="added IEvents interface" />
+    <MESSAGE value="Add server, non funzionante" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add server, non funzionante" />
   </component>
 </project>
