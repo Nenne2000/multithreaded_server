@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0202b9fa-a12e-4109-80d5-dc1ba1c9663b" name="Changes" comment="add basic GUI">
-      <change afterPath="$PROJECT_DIR$/src/GUI/MyListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/MyWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/myWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/WorkerRunnable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +93,8 @@
       <workItem from="1652987682022" duration="3872000" />
       <workItem from="1653051531024" duration="1384000" />
       <workItem from="1653051315990" duration="1999000" />
-      <workItem from="1653124812679" duration="3032000" />
+      <workItem from="1653124812679" duration="3053000" />
+      <workItem from="1653215994495" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1652695116789</created>
@@ -141,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653127338592</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add basic GUI">
+      <created>1653128164548</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653128164548</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
