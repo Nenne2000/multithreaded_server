@@ -12,9 +12,12 @@ public class GUI extends JFrame {
 
 
     public GUI(){
-        super("swing");
-        booking = new JButton("book");
-        JLabel a = new JLabel("book your event");
+        super("Booking GUI");
+        booking = new JButton("Book now!");
+        JLabel name = new JLabel("Event name:");
+        JTextField text1 = new JTextField(3);
+        JLabel seats = new JLabel("Seats:");
+        JTextField text2 = new JTextField(3);
 
         JFrame Frame = new JFrame();
         JPanel Panel = new JPanel();
@@ -22,8 +25,15 @@ public class GUI extends JFrame {
         Panel.setLayout(new GridLayout(0,1));
         Frame.add(Panel, BorderLayout.CENTER);
         Frame.setTitle("Booking Events");
-        Panel.add(a);
+        Panel.add(name);
+        Panel.add(text1);
+        Panel.add(seats);
+        Panel.add(text2);
         Panel.add(booking);
+
+        MyListener book_handler  = new MyListener(this);
+        booking.addActionListener(book_handler);
+
         getContentPane().add(Panel);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);

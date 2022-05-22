@@ -18,7 +18,6 @@ public class MyListener implements ActionListener{
     //TODO
     @Override
     public void actionPerformed(ActionEvent e) {
-        //QUA
         synchronized (gui){
             gui.notify();
         }

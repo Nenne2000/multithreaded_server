@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0202b9fa-a12e-4109-80d5-dc1ba1c9663b" name="Changes" comment="add basic GUI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/MyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/user.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +100,7 @@
       <workItem from="1653051315990" duration="1999000" />
       <workItem from="1653124812679" duration="3053000" />
       <workItem from="1653215994495" duration="307000" />
+      <workItem from="1653228036478" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1652695116789</created>
